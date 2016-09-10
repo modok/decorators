@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 10px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.animate {
+  -webkit-transition:.2s linear transform;
+  -moz-transition:.2s linear transform;
+  -o-transition:.2s linear transform;
+  transition:.2s linear transform;
+}
+
+channels,
+channel-detail {
+  position:relative;
+  display: block;
+  transform: translateX(-1000px);
+}
+
+channels channel,
+channel-detail {
+  display: block;
+  background:#9ed6b2;
+  padding:20px;
+  border-radius: 10px;
+  border:4px solid #58D39C;
+}
+
+channels channel {
+  padding:10px;
+  margin-bottom:20px;
+  min-height:60px;
+}
+
+.enter {
+  transform: translateX(0px);
+}
+
+.exit {
+  transform: translateX(1000px);
+}

@@ -1,0 +1,8 @@
+{
+    "channels": [
+        {"id": 1, "name": "channel 1", "description": "description 1"},
+        {"id": 2, "name": "channel 2", "description": "description 2"},
+        {"id": 3, "name": "channel 3", "description": "description 3"},
+        {"id": 4, "name": "channel 4", "description": "description 4"}
+    ]
+}
