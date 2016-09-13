@@ -15,3 +15,5 @@ and then
 `$ npm start`
 
 Browse http://localhost:3000/ to view the demo.
+
+The angular source is in /public/javascripts/src/
